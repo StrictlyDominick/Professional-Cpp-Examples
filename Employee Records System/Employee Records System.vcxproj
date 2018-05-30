@@ -119,6 +119,7 @@
     <ClInclude Include="Employee.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Database.cpp" />
     <ClCompile Include="Employee.cpp" />
     <ClCompile Include="EmployeeTest.cpp" />
   </ItemGroup>
