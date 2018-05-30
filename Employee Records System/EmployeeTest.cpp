@@ -1,3 +1,4 @@
+#pragma once
 #include <iostream>
 #include "Employee.h"
 using namespace std;
@@ -14,5 +15,6 @@ int main()
 	emp.promote(50);
 	emp.hire();
 	emp.display();
+	cin.get();
 	return 0;
 }
