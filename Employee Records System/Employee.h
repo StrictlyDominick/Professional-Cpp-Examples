@@ -15,7 +15,7 @@ namespace Records {
 		void fire(); // Dismisses the employee
 		void display() const;// Outputs employee info to console
 
-							 // Getters and setters
+		// Getters and setters
 		void setFirstName(const std::string& firstName);
 		const std::string& getFirstName() const;
 
