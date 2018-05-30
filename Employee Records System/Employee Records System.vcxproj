@@ -120,9 +120,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Database.cpp" />
-    <ClCompile Include="DatabaseTestcpp.cpp" />
+    <ClCompile Include="DatabaseTest.cpp" />
     <ClCompile Include="Employee.cpp" />
-    <ClCompile Include="EmployeeTest.cpp" />
+    <ClCompile Include="UserInterface.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

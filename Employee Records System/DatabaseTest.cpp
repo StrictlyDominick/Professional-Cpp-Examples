@@ -18,5 +18,6 @@ int main()
 	myDB.displayCurrent();
 	cout << endl << "former employees: " << endl << endl;
 	myDB.displayFormer();
+	cin.get();
 	return 0;
 }
