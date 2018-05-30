@@ -39,4 +39,15 @@ namespace Records {
 				employee.display();
 		}
 	}
+
+	void Database::displayFormer() const
+	{
+		for (const Employee& formerEmployee : mEmployees)
+		{
+			if (!formerEmployee.getIsHired())
+			{
+				formerEmployee.display();
+			}
+		}
+	}
 }
