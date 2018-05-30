@@ -120,6 +120,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Database.cpp" />
+    <ClCompile Include="DatabaseTestcpp.cpp" />
     <ClCompile Include="Employee.cpp" />
     <ClCompile Include="EmployeeTest.cpp" />
   </ItemGroup>
