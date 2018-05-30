@@ -4,11 +4,13 @@
 #include "Database.h"
 using namespace std;
 using namespace Records;
+
 int displayMenu();
 void doHire(Database& db);
 void doFire(Database& db);
 void doPromote(Database& db);
 void doDemote(Database& db);
+
 int main()
 {
 	Database employeeDB;
